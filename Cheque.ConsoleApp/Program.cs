@@ -13,8 +13,10 @@ namespace ChequeExtenso.ConsoleApp
         {
             Cheque cheque = new Cheque();
 
+            //Conversao
             Cheque.cheque = (string)ConversaoPorExtenso.ConversaoValorExtenso();
-
+            
+            //Vizualização
             Cheque.cheque = (string)ConsoleApp.VizualizarCheque.ValorEmNumeros();
 
             

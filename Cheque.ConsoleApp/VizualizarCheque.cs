@@ -11,9 +11,7 @@ namespace ChequeExtenso.ConsoleApp
 
         public static object MostrarCheques()
         {
-            Cheque.cheque = (string)TelaCheque.AdicionarCheque();
-            
-
+            Cheque.cheque = (string)TelaCheque.MostrarCheque();
             return ValorEmNumeros();
         }
 

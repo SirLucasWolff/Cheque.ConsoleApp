@@ -8,61 +8,37 @@ namespace ChequeExtenso.ConsoleApp
     {
         public static object ValidarReais;
 
-        public static object AdicionarCheque()
+        public enum Valores
         {
-            int[] Cheque = new int[55];
-            List<int> Valores = new List<int>();
-
-            Valores.Add(005);
-            Valores.Add(225);
-            Valores.Add(700);
-            Valores.Add(3700);
-            Valores.Add(63700);
-            Valores.Add(163700);
-            Valores.Add(1541516);
-            Valores.Add(6163700);
-            Valores.Add(96163700);
-            Valores.Add(185270000);
-            Valores.Add(596163700);
-            Valores.Add(259616370);
-
-            Valores.CopyTo(Cheque, 0);
-
-            if (Valores.Contains(0))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
-            Validador(Cheque);
-
-            return AdicionarCheque();
+            A = 050,
+            B = 225,
+            C = 700,
+            D = 3700,
+            E = 63700,
+            F = 163700,
+            G = 1541516,
+            H = 6163700,
+            I = 96163700,
+            J = 185270000,
+            K = 596163700,
         }
-
-        private static void Validador(int[] Cheque)
+      
+        public static string MostrarCheque()
         {
-            Cheque[0] = ValidadorReais.ValidarChequePosicao0();
-            Cheque[1] = ValidadorReais.ValidarChequePosicao1();
-            Cheque[2] = ValidadorReais.ValidarChequePosicao2();
-            Cheque[3] = ValidadorReais.ValidarChequePosicao3();
-            Cheque[4] = ValidadorReais.ValidarChequePosicao4();
-            Cheque[5] = ValidadorReais.ValidarChequePosicao5();
-            Cheque[6] = ValidadorReais.ValidarChequePosicao6();
-            Cheque[7] = ValidadorReais.ValidarChequePosicao7();
-            Cheque[8] = ValidadorReais.ValidarChequePosicao8();
-            Cheque[9] = ValidadorReais.ValidarChequePosicao9();
-            Cheque[10] = ValidadorReais.ValidarChequePosicao10();
-            Cheque[11] = ValidadorReais.ValidarChequePosicao11();
-            Cheque[12] = ValidadorReais.ValidarChequePosicao12();
-            Cheque[13] = ValidadorReais.ValidarChequePosicao13();
-        }
+            Valores.A.GetHashCode();
+            Valores.B.GetHashCode();
+            Valores.C.GetHashCode();
+            Valores.D.GetHashCode();
+            Valores.E.GetHashCode();
+            Valores.F.GetHashCode();
+            Valores.G.GetHashCode();
+            Valores.H.GetHashCode();
+            Valores.I.GetHashCode();
+            Valores.J.GetHashCode();
+            Valores.K.GetHashCode();
 
-        internal static string MostrarCheque()
-        {
-            throw new NotImplementedException();
+            int nomes = ValidadorReais.ValidarChequePosicao0();
+            return MostrarCheque();
         }
     }
 }
