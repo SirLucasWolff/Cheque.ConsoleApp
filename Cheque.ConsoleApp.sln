@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheque.ConsoleApp", "Cheque.ConsoleApp\Cheque.ConsoleApp.csproj", "{EAE1CEF2-705B-4A49-A310-A9DB3FC22205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheques.Testes", "Cheques.Testes\Cheques.Testes.csproj", "{C42662AB-1B9E-444E-A3E9-5BAD177BAD17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTestCheque", "ConvertTestCheque\ConvertTestCheque.csproj", "{FBA2329A-C0EF-4CCC-A33B-4E54A9AA9EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EAE1CEF2-705B-4A49-A310-A9DB3FC22205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAE1CEF2-705B-4A49-A310-A9DB3FC22205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE1CEF2-705B-4A49-A310-A9DB3FC22205}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C42662AB-1B9E-444E-A3E9-5BAD177BAD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C42662AB-1B9E-444E-A3E9-5BAD177BAD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C42662AB-1B9E-444E-A3E9-5BAD177BAD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C42662AB-1B9E-444E-A3E9-5BAD177BAD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA2329A-C0EF-4CCC-A33B-4E54A9AA9EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA2329A-C0EF-4CCC-A33B-4E54A9AA9EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA2329A-C0EF-4CCC-A33B-4E54A9AA9EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA2329A-C0EF-4CCC-A33B-4E54A9AA9EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
